@@ -1,0 +1,113 @@
+<mjml>
+       
+    <mj-head>
+        <mj-title>Victoria's Secret - Latest Collection</mj-title>
+        <mj-font name="Playfair Display" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap" />
+        <mj-font name="Montserrat" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" />
+        <mj-attributes>
+            <mj-all font-family="Montserrat, Arial, sans-serif" />
+            <!-- <mj-text font-weight="400" font-size="16px" color="#000000" line-height="24px" /> -->
+        </mj-attributes>
+        <mj-style >
+            .nav-link { 
+                color: #000; 
+                text-decoration: none;
+                padding: 0 15px;
+            }
+            .hero-text {
+                font-family: 'Playfair Display', serif;
+            
+            }
+           
+            .image-fit {
+                object-fit: cover;
+            }
+            @media (max-width: 480px) {
+                .nav-link {
+                    display: block;
+                    padding: 8px 0;
+                }
+
+
+            }
+        </mj-style>
+    </mj-head>
+
+    <mj-body background-color="#ffffff">
+       
+
+        <!-- Include Header Component -->
+        <mj-include path="./components/header.mjml" />
+
+        <!-- Navigation Bar -->
+        <mj-section padding="10px 0">
+            <mj-column>
+                <mj-text align="center" css-class="nav-links">
+                    <a href="#" class="nav-link">NEW</a>
+                    <a href="#" class="nav-link">LINGERIE</a>
+                    <a href="#" class="nav-link">SLEEP</a>
+                    <a href="#" class="nav-link">BEAUTY</a>
+                    <a href="#" class="nav-link">SALE</a>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <!-- Hero Section -->
+        <mj-section padding="0">
+            <mj-column>
+                <mj-image src="https://i.postimg.cc/Kc1svkLg/new-products.jpg" alt="New Collection" padding="0" />
+                <mj-text align="center" font-family="Playfair Display" padding-top="20px" css-class="hero-text"font-size="42px">
+                    Summer Collection
+                </mj-text>
+                <mj-text align="center" font-size="20px" padding-bottom="20px">
+                    Discover the latest in luxury
+                </mj-text>
+                <mj-button background-color="#000000" color="#ffffff" border-radius="0" padding="20px 30px" font-size="16px">
+                    SHOP NOW
+                </mj-button>
+            </mj-column>
+        </mj-section>
+
+        <!-- Featured Categories -->
+        <mj-section padding="40px 0">
+            <mj-column width="33.33%" vertical-align="top">
+                <mj-image  css-class="image-fit" src="https://i.postimg.cc/cHHwh3Z7/lingerie.webp" alt="Lingerie" height="200px" />
+                <mj-text align="center" font-size="18px" padding-top="15px">
+                    Lingerie
+                </mj-text>
+            </mj-column>
+            
+            <mj-column width="33.33%" vertical-align="top">
+                <mj-image  css-class="image-fit" src="https://i.postimg.cc/j5FNFjdp/beauty.png" alt="Beauty" height="200px" />
+                <mj-text align="center" font-size="18px" padding-top="15px">
+                    Beauty
+                </mj-text>
+            </mj-column>
+
+            <mj-column width="33.33%" vertical-align="top">
+                <mj-image  css-class="image-fit" src="https://i.postimg.cc/1XV6hZ8f/sleep.png" alt="Sleep" height="200px" />
+                <mj-text align="center" font-size="18px" padding-top="15px">
+                    Sleep
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <!-- Promotion Banner -->
+        <mj-section background-color="#ffb3cb" padding="30px 0">
+            <mj-column>
+                <mj-text align="center" font-size="24px" font-family="Playfair Display">
+                    SPECIAL OFFER
+                </mj-text>
+                <mj-text align="center">
+                    Get 50% off your first purchase
+                </mj-text>
+                <mj-button background-color="#000000" color="#ffffff" border-radius="0">
+                    CLAIM OFFER
+                </mj-button>
+            </mj-column>
+        </mj-section>
+
+        <!-- Include Footer Component -->
+        ß<mj-include path="./components/footer.mjml" />
+    </mj-body>
+</mjml>

@@ -1,0 +1,5 @@
+<mj-section padding="20px 0">
+    <mj-column>
+        <mj-image src="https://i.postimg.cc/j2D6x7Fq/logo.jpg" alt="Victoria's Secret" align="center" width="200px" />
+    </mj-column>
+</mj-section> 

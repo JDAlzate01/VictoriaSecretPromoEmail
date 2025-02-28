@@ -1,0 +1,15 @@
+<mj-section padding="20px 0" background-color="#ffc6ef">
+    <mj-column>
+        <mj-text align="center" font-size="14px">
+            Follow us on social media
+        </mj-text>
+        <mj-social font-size="15px" icon-size="30px" mode="horizontal">
+            <mj-social-element name="facebook" href="https://facebook.com/victoriassecret" />
+            <mj-social-element name="instagram" href="https://instagram.com/victoriassecret" />
+            <mj-social-element name="twitter" href="https://twitter.com/victoriassecret" />
+        </mj-social>
+        <mj-text align="center" font-size="12px" padding-top="20px">
+            © 2024 Victoria's Secret. All rights reserved.
+        </mj-text>
+    </mj-column>
+</mj-section> 
